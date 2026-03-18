@@ -104,25 +104,6 @@ const MENU_DATA = {
         { n: "Smoothie Capelinha Amendoim",p: 25.90, d: "Amendoim, banana e toque de cacau",                       img: "",                  b: "" },
       ]
     },
-  ],
 
-  // ---- COMBOS ----
-  // n = nome, i = o que inclui, p = preço do combo, o = preço original (somado), s = economia
-  // Para REMOVER um combo: delete o bloco { } inteiro
-  // Para ADICIONAR: copie um bloco e edite
-
-  combos: [
-    { n: "Combo Manhã Coalho",           i: "Cuscuz Queijo Coalho + Café Expresso",               p: 29.90, o: 32.80, s: 2.90 },
-    { n: "Combo Manhã Carne do Sol",     i: "Cuscuz Carne do Sol + Café Expresso",                p: 34.90, o: 38.80, s: 3.90 },
-    { n: "Combo Manhã Fumeiro",          i: "Cuscuz Fumeiro + Café Expresso",                     p: 34.90, o: 38.80, s: 3.90 },
-    { n: "Combo Manhã Camarão",          i: "Cuscuz Camarão + Café Expresso",                     p: 39.90, o: 42.80, s: 2.90 },
-    { n: "Combo Fit Frango",             i: "Salada de Frango + Smoothie Mango Fresh",            p: 56.90, o: 64.80, s: 7.90 },
-    { n: "Combo Fit Whey",              i: "Salada de Frango + Smoothie Morango Whey",            p: 59.90, o: 69.80, s: 9.90 },
-    { n: "Combo Fit Filé",              i: "Salada de Filé + Smoothie Tropical",                  p: 69.90, o: 79.80, s: 9.90 },
-    { n: "Combo Completo Coalho",        i: "Cuscuz Coalho + Café + Tapioca Doce de Leite",       p: 49.90, o: 55.70, s: 5.80 },
-    { n: "Combo Completo Carne do Sol",  i: "Cuscuz Carne do Sol + Café + Tapioca Doce de Leite", p: 54.90, o: 61.70, s: 6.80 },
-    { n: "Combo Completo Camarão",       i: "Cuscuz Camarão + Duplo + Tapioca Nutella",           p: 59.90, o: 70.70, s: 10.80 },
-    { n: "Combo Croissant Café",         i: "Croissant Misto + Cappuccino",                       p: 39.90, o: 44.80, s: 4.90 },
-    { n: "Combo Tapioca + Cappuccino",   i: "Tapioca Doce de Leite + Cappuccino",                 p: 34.90, o: 38.80, s: 3.90 },
   ],
 };
