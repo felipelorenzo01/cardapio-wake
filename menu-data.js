@@ -97,11 +97,11 @@ const MENU_DATA = {
     {
       cat: "Smoothies",
       items: [
-        { n: "Smoothie Mango Fresh",      p: 24.90, d: "Manga, iogurte e toque de hortelã",                       img: "",                  b: "" },
+        { n: "Smoothie Mango Fresh",      p: 24.90, d: "Manga, banana, leite vegetal e água de coco",                       img: "",                  b: "" },
         { n: "Smoothie Morango Whey",     p: 29.90, d: "Morango, banana e whey protein",                           img: "",                  b: "f" },
-        { n: "Smoothie Tropical",         p: 29.90, d: "Mix de frutas tropicais refrescante",                      img: "",                  b: "" },
-        { n: "Smoothie Red Velvet",       p: 32.90, d: "Red velvet cremoso gelado",                                img: "",                  b: "p" },
-        { n: "Smoothie Capelinha Amendoim",p: 25.90, d: "Amendoim, banana e toque de cacau",                       img: "",                  b: "" },
+        { n: "Smoothie Tropical",         p: 29.90, d: "Maracujá, tâmaras, banana, leite e whey de doce de leite ",                      img: "",                  b: "" },
+        { n: "Smoothie Red Velvet",       p: 32.90, d: "Framboesa, Morango, Chia, Banana, Leite e Whey Protein",                                img: "",                  b: "p" },
+        { n: "Smoothie Capelinha Amendoim",p: 25.90, d: "Pasta de amendoim, abacaxi, banana e leite",                       img: "",                  b: "" },
       ]
     },
 
