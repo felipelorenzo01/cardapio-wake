@@ -28,7 +28,7 @@ var MENU = [
     itens: [
       { nome: "Croissant de Ovo e Bacon",      preco: 32.90, desc: "Croissant folhado, ovo e bacon crocante",                     foto: "croissant-ovo-bacon", badge: "" },
       { nome: "Croissant Misto",               preco: 28.90, desc: "Croissant com queijo e presunto",                             foto: "croissant-misto",    badge: "" },
-      { nome: "Croissant de Cogumelo",         preco: 39.90, desc: "Mix de cogumelos salteados no croissant",                     foto: "croissant-cogumelo", badge: "n" },
+      { nome: "Croissant de Cogumelo",         preco: 34.90, desc: "Mix de cogumelos salteados, com rúcula e requeijão no croissant",                     foto: "croissant-cogumelo", badge: "n" },
     ]
   },
   {
@@ -49,21 +49,21 @@ var MENU = [
   {
     categoria: "Saladas",
     itens: [
-      { nome: "Salada de Frango",              preco: 39.90, desc: "Mix de folhas frescas com frango grelhado",                   foto: "salada-frango",      badge: "" },
-      { nome: "Salada de Filé",                preco: 49.90, desc: "Tiras de filé mignon sobre mix de folhas e queijo",           foto: "salada-file",        badge: "p" },
-      { nome: "Salada de Camarão",             preco: 54.90, desc: "Camarões nobres com parmesão e castanhas",                    foto: "salada-camarao",     badge: "" },
+      { nome: "Salada de Frango",              preco: 39.90, desc: "Mix de folhas frescas com frango grelhado e castanha",                   foto: "salada-frango",      badge: "" },
+      { nome: "Salada de Filé",                preco: 49.90, desc: "Tiras de filé mignon sobre mix de folhas e queijo gorgonzola",           foto: "salada-file",        badge: "p" },
+      { nome: "Salada de Camarão",             preco: 57.90, desc: "Camarões nobres com parmesão e castanhas",                    foto: "salada-camarao",     badge: "" },
     ]
   },
   {
     categoria: "Tapioca",
     itens: [
       { nome: "Tapioca Fumeiro",               preco: 29.90, desc: "Tapioca recheada com linguiça fumeiro",                       foto: "tapioca-fumeiro",    badge: "" },
-      { nome: "Tapioca Filé & Cogumelo",       preco: 35.90, desc: "Filé mignon com cogumelos frescos",                           foto: "",                   badge: "n" },
+      { nome: "Tapioca Filé & Cogumelo",       preco: 36.90, desc: "Filé mignon com cogumelos frescos",                           foto: "",                   badge: "n" },
       { nome: "Tapioca Camarão",               preco: 42.90, desc: "Camarões salteados com pesto e tomate",                       foto: "tapioca-camarao",    badge: "" },
       { nome: "Tapioca Mista",                 preco: 24.90, desc: "Queijo derretido e presunto na tapioca",                      foto: "tapioca-mista",      badge: "" },
       { nome: "Tapioca Veggie",                preco: 22.90, desc: "Legumes grelhados, queijo e tomate",                          foto: "tapioca-veggie",     badge: "" },
       { nome: "Tapioca Doce de Leite",         preco: 22.90, desc: "Doce de leite artesanal na tapioca",                          foto: "tapioca-doce-leite", badge: "" },
-      { nome: "Tapioca Nutella",               preco: 23.90, desc: "Nutella cremosa na tapioca crocante",                         foto: "tapioca-nutella",    badge: "" },
+      { nome: "Tapioca Nutella",               preco: 22.90, desc: "Nutella cremosa na tapioca crocante",                         foto: "tapioca-nutella",    badge: "" },
     ]
   },
   {
@@ -78,11 +78,11 @@ var MENU = [
   {
     categoria: "Smoothies",
     itens: [
-      { nome: "Smoothie Mango Fresh",          preco: 24.90, desc: "Manga, iogurte e toque de hortelã",                           foto: "",                   badge: "" },
-      { nome: "Smoothie Morango Whey",         preco: 29.90, desc: "Morango, banana e whey protein",                              foto: "smoothie-morango",   badge: "f" },
-      { nome: "Smoothie Tropical",             preco: 29.90, desc: "Mix de frutas tropicais refrescante",                         foto: "",                   badge: "" },
-      { nome: "Smoothie Red Velvet",           preco: 32.90, desc: "Red velvet cremoso gelado",                                   foto: "",                   badge: "p" },
-      { nome: "Smoothie Capelinha Amendoim",   preco: 25.90, desc: "Amendoim, banana e toque de cacau",                           foto: "",                   badge: "" },
+      { nome: "Smoothie Maracujá e Doce de Leite",          preco: 29.90, desc: "Maracujá, tâmaras, banana, leite e whey de doce de leite",                           foto: "",                   badge: "p" },
+      { nome: "Smoothie Morango Whey",         preco: 29.90, desc: "Morango, banana, leite e whey protein",                              foto: "smoothie-morango",   badge: "f" },
+      { nome: "Smoothie Frutas Vermelhas",             preco: 29.90, desc: "Morango, framboesa, chia, banana, leite e whey protein",                         foto: "",                   badge: "" },
+      { nome: "Smoothie Bluefit",           preco: 29.90, desc: "Blueberry, acaí, água de coco e whey protein",                                   foto: "",                   badge: "" },
+      { nome: "Smoothie Capelinha Amendoim",   preco: 25.90, desc: "Pasta de amendoim, banana, abacaxi, leite e whey protein",                           foto: "",                   badge: "" },
     ]
   },
 ];
