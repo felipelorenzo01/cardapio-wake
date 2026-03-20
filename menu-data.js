@@ -58,7 +58,7 @@ var MENU = [
     categoria: "Tapioca",
     itens: [
       { nome: "Tapioca Fumeiro",               preco: 29.90, desc: "Tapioca recheada com linguiça fumeiro",                       foto: "tapioca-fumeiro",    badge: "p" },
-      { nome: "Tapioca Filé & Cogumelo",       preco: 36.90, desc: "Filé mignon com cogumelos frescos",                           foto: "",                   badge: "" },
+      { nome: "Tapioca Filé & Cogumelo",       preco: 36.90, desc: "Filé mignon com cogumelos frescos",                           foto: "tapioca-filé",                   badge: "" },
       { nome: "Tapioca Camarão",               preco: 42.90, desc: "Camarões salteados com pesto e tomate",                       foto: "tapioca-camarao",    badge: "" },
       { nome: "Tapioca Mista",                 preco: 24.90, desc: "Queijo derretido e presunto na tapioca",                      foto: "tapioca-mista",      badge: "" },
       { nome: "Tapioca Veggie",                preco: 22.90, desc: "Legumes grelhados, queijo e tomate",                          foto: "tapioca-veggie",     badge: "" },
@@ -78,11 +78,11 @@ var MENU = [
   {
     categoria: "Smoothies",
     itens: [
-      { nome: "Smoothie Maracujá e Doce de Leite",          preco: 29.90, desc: "Maracujá, tâmaras, banana, leite e whey de doce de leite",                           foto: "",                   badge: "p" },
+      { nome: "Smoothie Maracujá e Doce de Leite",          preco: 29.90, desc: "Maracujá, tâmaras, banana, leite e whey de doce de leite",                           foto: "smoothie-maracujá",                   badge: "p" },
       { nome: "Smoothie Morango Whey",         preco: 29.90, desc: "Morango, banana, leite e whey protein",                              foto: "smoothie-morango",   badge: "" },
-      { nome: "Smoothie Frutas Vermelhas",             preco: 29.90, desc: "Morango, framboesa, chia, banana, leite e whey protein",                         foto: "",                   badge: "" },
+      { nome: "Smoothie Frutas Vermelhas",             preco: 29.90, desc: "Morango, framboesa, chia, banana, leite e whey protein",                         foto: "smoothie-frutas-vermelhas",                   badge: "" },
       { nome: "Smoothie Bluefit",           preco: 29.90, desc: "Blueberry, acaí, água de coco e whey protein",                                   foto: "",                   badge: "" },
-      { nome: "Smoothie Capelinha Amendoim",   preco: 25.90, desc: "Pasta de amendoim, banana, abacaxi, leite e whey protein",                           foto: "",                   badge: "" },
+      { nome: "Smoothie Capelinha Amendoim",   preco: 25.90, desc: "Pasta de amendoim, banana, abacaxi, leite e whey protein",                           foto: "smoothie-capelinha-amendoim",                   badge: "" },
     ]
   },
 ];
