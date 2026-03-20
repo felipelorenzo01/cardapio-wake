@@ -57,7 +57,7 @@ var MENU = [
   {
     categoria: "Tapioca",
     itens: [
-      { nome: "Tapioca Fumeiro",               preco: 29.90, desc: "Tapioca recheada com linguiça fumeiro",                       foto: "tapioca-fumeiro",    badge: "p" },
+      { nome: "Tapioca Fumeiro",               preco: 29.90, desc: "Tapioca recheada com carne de fumeiro artesanal",                       foto: "tapioca-fumeiro",    badge: "p" },
       { nome: "Tapioca Filé & Cogumelo",       preco: 36.90, desc: "Filé mignon com cogumelos frescos",                           foto: "tapioca-file",                   badge: "" },
       { nome: "Tapioca Camarão",               preco: 42.90, desc: "Camarões salteados com pesto e tomate",                       foto: "tapioca-camarao",    badge: "" },
       { nome: "Tapioca Mista",                 preco: 24.90, desc: "Queijo derretido e presunto na tapioca",                      foto: "tapioca-mista",      badge: "" },
