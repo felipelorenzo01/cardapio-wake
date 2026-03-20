@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Wake — Real Food · Real Energy</title>
+<meta name="theme-color" content="#382a29">
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','1263675919166906');
+fbq('track','PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1263675919166906&ev=PageView&noscript=1"/></noscript>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--dk:#382a29;--bg:#f8f4ee;--br:#645a4e;--be:#c5b59e;--ac:#8B5E3C;--r:14px}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--dk);overflow-x:hidden}
+#app{max-width:480px;margin:0 auto;min-height:100vh}
+.hero{background:var(--dk);padding:52px 24px 36px;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-40px;right:-40px;width:200px;height:200px;border-radius:50%;background:rgba(197,181,158,0.08)}
+.hero-logo img{height:70px;position:relative;z-index:1;border-radius:8px}
+.hero-tag{font-size:12px;letter-spacing:3px;text-transform:uppercase;color:var(--be);margin-top:10px;position:relative;z-index:1}
+.hero-phrase{font-family:'Sora',sans-serif;font-size:14px;color:rgba(248,244,238,0.5);margin-top:14px;font-style:italic;position:relative;z-index:1}
+.info{display:flex;gap:16px;padding:14px 20px;background:#fff;border-bottom:1px solid rgba(100,90,78,0.06);font-size:12px;color:var(--br);overflow-x:auto;-webkit-overflow-scrolling:touch}
+.info::-webkit-scrollbar{display:none}
+.info span{white-space:nowrap;display:flex;align-items:center;gap:5px}
+.info a{color:var(--br);text-decoration:none}
+.dot{width:7px;height:7px;border-radius:50%;background:#6B9E3C}
+.srch{padding:16px 20px 8px}
+.srch input{width:100%;padding:12px 16px 12px 42px;border-radius:var(--r);border:1px solid rgba(100,90,78,0.12);background:#fff;font-size:14px;font-family:inherit;color:var(--dk);outline:none;transition:border-color .2s;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' fill='%23c5b59e' viewBox='0 0 24 24'%3E%3Cpath d='M15.5 14h-.79l-.28-.27A6.47 6.47 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:14px center}
+.srch input:focus{border-color:var(--be)}
+.srch input::placeholder{color:var(--be)}
+.nav{display:flex;gap:8px;padding:10px 20px;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:0;z-index:20;background:var(--bg)}
+.nav::-webkit-scrollbar{display:none}
+.pill{padding:9px 18px;border-radius:24px;border:1px solid rgba(100,90,78,0.15);background:#fff;font-size:13px;font-family:inherit;cursor:pointer;white-space:nowrap;transition:all .2s;color:var(--br);font-weight:500}
+.pill.on{background:var(--dk);color:var(--bg);border-color:var(--dk)}
+.sec{padding:0 20px 4px}
+.sec-h{font-family:'Sora',sans-serif;font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:1.5px;color:var(--br);padding:20px 0 12px}
+.cd{display:flex;gap:14px;padding:14px;background:#fff;border-radius:var(--r);margin-bottom:10px;border:1px solid rgba(100,90,78,0.06);transition:transform .12s;overflow:hidden;cursor:pointer}
+.cd:active{transform:scale(0.985)}
+.cd-img{width:88px;height:88px;border-radius:10px;object-fit:cover;flex-shrink:0;background:#e8e0d4}
+.cd-ph{width:88px;height:88px;border-radius:10px;flex-shrink:0;background:linear-gradient(135deg,#e8e0d4,#d4cabe);display:flex;align-items:center;justify-content:center;color:var(--br);opacity:.4}
+.cd-b{flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center}
+.cd-n{font-size:14px;font-weight:600;color:var(--dk);line-height:1.3}
+.cd-d{font-size:12px;color:var(--br);margin-top:3px;line-height:1.4;opacity:.7}
+.cd-f{display:flex;align-items:center;gap:8px;margin-top:8px}
+.cd-p{font-family:'Sora',sans-serif;font-size:15px;font-weight:600;color:var(--dk)}
+.bg{display:inline-block;font-size:10px;font-weight:600;padding:3px 10px;border-radius:20px;letter-spacing:.3px}
+.bg-p{background:rgba(139,94,60,0.1);color:var(--ac)}
+.bg-n{background:rgba(100,90,78,0.08);color:var(--br)}
+.bg-f{background:rgba(107,158,60,0.1);color:#5A8A2A}
+.modal-bg{display:none;position:fixed;inset:0;background:rgba(56,42,41,0.5);z-index:100;backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)}
+.modal-bg.show{display:flex;align-items:flex-end;justify-content:center}
+.modal{background:var(--bg);width:100%;max-width:480px;max-height:92vh;border-radius:20px 20px 0 0;overflow-y:auto;-webkit-overflow-scrolling:touch;position:relative;animation:slideUp .3s ease}
+@keyframes slideUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
+.modal-img{width:100%;aspect-ratio:1;object-fit:cover;background:#e8e0d4}
+.modal-img-ph{width:100%;aspect-ratio:1;background:linear-gradient(135deg,#e8e0d4,#d4cabe);display:flex;align-items:center;justify-content:center;color:var(--br);opacity:.3}
+.modal-back{position:absolute;top:16px;left:16px;width:36px;height:36px;border-radius:50%;background:rgba(248,244,238,0.9);border:none;display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:2}
+.modal-back svg{width:20px;height:20px;stroke:var(--dk);fill:none;stroke-width:2}
+.modal-body{padding:24px 20px 32px}
+.modal-name{font-size:20px;font-weight:700;color:var(--dk);line-height:1.3}
+.modal-desc{font-size:14px;color:var(--br);margin-top:8px;line-height:1.6;opacity:.75}
+.modal-price{font-family:'Sora',sans-serif;font-size:22px;font-weight:600;color:var(--dk);margin-top:16px}
+.modal-badge{margin-top:12px}
+.modal-divider{width:40px;height:3px;background:var(--be);border-radius:2px;margin:0 auto 8px;opacity:.4}
+.ft{text-align:center;padding:32px 20px;font-size:12px;color:var(--be)}
+.wa{position:fixed;bottom:20px;right:max(20px,calc(50% - 220px));width:52px;height:52px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;z-index:30;border:none;box-shadow:0 4px 12px rgba(37,211,102,.3);text-decoration:none}
+.wa svg{width:26px;height:26px;fill:#fff}
+</style>
+</head>
+<body>
+<div id="app">
+<div class="hero">
+<div class="hero-logo"><img src="assets/logo.png" alt="Wake"></div>
+<div class="hero-tag">Real Food &middot; Real Energy</div>
+<div class="hero-phrase">Comida real para o seu dia a dia.</div>
+</div>
+<div class="info" id="infoBar"></div>
+<div class="srch"><input type="text" placeholder="Buscar no cardápio..." id="si"></div>
+<div class="nav" id="cn"></div>
+<div id="mc"></div>
+<div class="modal-bg" id="modal" onclick="if(event.target===this)closeModal()">
+<div class="modal">
+<div id="modalImgWrap"></div>
+<button class="modal-back" onclick="closeModal()"><svg viewBox="0 0 24 24"><path d="M19 12H5m0 0l7 7m-7-7l7-7" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<div class="modal-body">
+<div class="modal-divider"></div>
+<div class="modal-name" id="modalName"></div>
+<div class="modal-desc" id="modalDesc"></div>
+<div class="modal-price" id="modalPrice"></div>
+<div class="modal-badge" id="modalBadge"></div>
+</div>
+</div>
+</div>
+<div class="ft"><div>Wake &mdash; Real Food &middot; Real Energy</div><div style="margin-top:4px;font-size:11px;opacity:.6">Comida de verdade. Para todo dia. Para todo ritmo.</div></div>
+</div>
+<a class="wa" id="waBtn" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.11.546 4.093 1.502 5.82L0 24l6.335-1.495A11.95 11.95 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75c-1.875 0-3.615-.525-5.107-1.43l-.363-.217-3.762.888.948-3.646-.237-.377A9.718 9.718 0 012.25 12c0-5.385 4.365-9.75 9.75-9.75S21.75 6.615 21.75 12s-4.365 9.75-9.75 9.75z"/></svg></a>
+
+<script src="menu-data.js"></script>
+<script>
+var sr="",scrolling=false;
+var PH_SVG='<svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909M3.75 21h16.5A2.25 2.25 0 0022.5 18.75V5.25A2.25 2.25 0 0020.25 3H3.75A2.25 2.25 0 001.5 5.25v13.5A2.25 2.25 0 003.75 21z"/></svg>';
+
+document.getElementById("waBtn").href="https://wa.me/"+CONFIG.whatsapp;
+document.getElementById("infoBar").innerHTML='<span><span class="dot"></span> Aberto agora</span><span>Salvador, BA</span><span><a href="https://instagram.com/'+CONFIG.instagram+'" target="_blank" rel="noopener">@'+CONFIG.instagram+'</a></span>';
+
+function fmt(v){return "R$\u00a0"+v.toFixed(2).replace(".",",")}
+function bdg(b){if(b==="p")return'<span class="bg bg-p">Mais pedido</span>';if(b==="n")return'<span class="bg bg-n">Novidade</span>';if(b==="f")return'<span class="bg bg-f">Fitness</span>';return"";}
+function imgH(f){if(f)return'<img class="cd-img" src="photos/'+f+'.jpg" alt="" loading="lazy" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\'"><div class="cd-ph" style="display:none">'+PH_SVG+'</div>';return'<div class="cd-ph">'+PH_SVG+'</div>';}
+function card(it,ci,ii){return'<div class="cd" onclick="openModal('+ci+','+ii+')">'+imgH(it.foto)+'<div class="cd-b"><div class="cd-n">'+it.nome+'</div><div class="cd-d">'+it.desc+'</div><div class="cd-f"><span class="cd-p">'+fmt(it.preco)+'</span>'+bdg(it.badge)+'</div></div></div>';}
+
+function openModal(ci,ii){
+  var it=MENU[ci].itens[ii];var w=document.getElementById("modalImgWrap");
+  if(it.foto){w.innerHTML='<img class="modal-img" src="photos/'+it.foto+'.jpg" alt="" onerror="this.outerHTML=\'<div class=modal-img-ph>'+PH_SVG.replace(/"/g,"&quot;")+'</div>\'">';}
+  else{w.innerHTML='<div class="modal-img-ph">'+PH_SVG+'</div>';}
+  document.getElementById("modalName").textContent=it.nome;
+  document.getElementById("modalDesc").textContent=it.desc;
+  document.getElementById("modalPrice").textContent=fmt(it.preco);
+  document.getElementById("modalBadge").innerHTML=bdg(it.badge);
+  document.getElementById("modal").className="modal-bg show";
+  document.body.style.overflow="hidden";
+}
+function closeModal(){document.getElementById("modal").className="modal-bg";document.body.style.overflow="";}
+function scrollToCat(idx){var el=document.getElementById("cat-"+idx);if(el){scrolling=true;var navH=document.getElementById("cn").offsetHeight||48;var y=el.getBoundingClientRect().top+window.pageYOffset-navH-10;window.scrollTo({top:y,behavior:"smooth"});setTimeout(function(){scrolling=false;updateActivePill();},600);}}
+function updateActivePill(){if(scrolling)return;var navH=document.getElementById("cn").offsetHeight||48;var pills=document.querySelectorAll(".pill");var secs=document.querySelectorAll("[data-section]");var active=0;for(var i=0;i<secs.length;i++){if(secs[i].getBoundingClientRect().top<=navH+60)active=i;}for(var i=0;i<pills.length;i++){pills[i].className=i===active?"pill on":"pill";}if(pills[active])pills[active].scrollIntoView({behavior:"smooth",block:"nearest",inline:"center"});}
+
+function render(){
+  var cn=document.getElementById("cn"),mc=document.getElementById("mc"),fl=sr.length>1,h="",nv="";
+  for(var i=0;i<MENU.length;i++){nv+='<button class="pill'+(i===0?" on":"")+'" data-cat="'+i+'">'+MENU[i].categoria+'</button>';}
+  cn.innerHTML=nv;
+  cn.onclick=function(e){var b=e.target.closest("[data-cat]");if(b)scrollToCat(parseInt(b.dataset.cat));};
+  if(fl){
+    var t=sr.toLowerCase();
+    for(var i=0;i<MENU.length;i++){var fi=[];for(var j=0;j<MENU[i].itens.length;j++){var it=MENU[i].itens[j];if(it.nome.toLowerCase().indexOf(t)>=0||it.desc.toLowerCase().indexOf(t)>=0)fi.push({item:it,ci:i,ii:j});}if(fi.length){h+='<div class="sec" data-section="'+i+'" id="cat-'+i+'"><div class="sec-h">'+MENU[i].categoria+'</div>';for(var j=0;j<fi.length;j++)h+=card(fi[j].item,fi[j].ci,fi[j].ii);h+='</div>';}}
+    if(!h)h='<div style="text-align:center;padding:40px;color:var(--be);font-size:14px">Nenhum item encontrado.</div>';
+  }else{
+    for(var i=0;i<MENU.length;i++){if(MENU[i].itens.length>0){h+='<div class="sec" data-section="'+i+'" id="cat-'+i+'"><div class="sec-h">'+MENU[i].categoria+'</div>';for(var j=0;j<MENU[i].itens.length;j++)h+=card(MENU[i].itens[j],i,j);h+='</div>';}}
+  }
+  mc.innerHTML=h;
+}
+document.getElementById("si").addEventListener("input",function(e){sr=e.target.value;render();});
+window.addEventListener("scroll",updateActivePill);
+render();
+</script>
+</body>
+</html>
