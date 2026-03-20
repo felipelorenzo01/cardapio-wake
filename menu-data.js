@@ -42,7 +42,7 @@ var MENU = [
   {
     categoria: "Sanduíches",
     itens: [
-      { nome: "Misto com Ovo",                 preco: 26.90, desc: "Sanduíche misto quente com ovo na chapa",                     foto: "misto-ovo",          badge: "" },
+      { nome: "Misto com Ovo",                 preco: 24.90, desc: "Sanduíche misto quente com ovo na chapa",                     foto: "misto-ovo",          badge: "" },
       { nome: "Queijo Quente com Ovo",         preco: 20.90, desc: "Pão na chapa, queijo derretido e ovo",                        foto: "queijo-quente",      badge: "" },
     ]
   },
