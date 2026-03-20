@@ -88,6 +88,6 @@ var MENU = [
 ];
 
 var CONFIG = {
-  whatsapp: "5571999999999",
+  whatsapp: "5571981817884",
   instagram: "waketododia",
 };
