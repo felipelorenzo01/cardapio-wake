@@ -76,6 +76,15 @@ var MENU = [
     ]
   },
   {
+    categoria: "Bebidas",
+    itens: [
+      { nome: "Coca Cola",                 preco: 5.90,  desc: "Expresso curto e encorpado",                                  foto: "",                   badge: "" },
+      { nome: "Coca Cola Zero",                preco: 9.90,  desc: "Dose dupla pra dar aquele boost",                             foto: "",                   badge: "" },
+      { nome: "Schweppes",              preco: 14.90, desc: "Chocolate cremoso artesanal",                                 foto: "",                   badge: "" },
+      { nome: "Água sem Gás",                    preco: 18.90, desc: "Cappuccino com espuma aveludada",                              foto: "",                   badge: "" },
+    ]
+  },
+  {
     categoria: "Smoothies",
     itens: [
       { nome: "Smoothie Maracujá e Doce de Leite",          preco: 29.90, desc: "Maracujá, tâmaras, banana, leite e whey de doce de leite",                           foto: "smoothie-maracuja",                   badge: "p" },
