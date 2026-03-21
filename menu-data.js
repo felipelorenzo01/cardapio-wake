@@ -65,6 +65,16 @@ var MENU = [
       { nome: "Tapioca Doce de Leite",         preco: 24.90, desc: "Doce de leite artesanal na tapioca",                          foto: "tapioca-doce-leite", badge: "" },
       { nome: "Tapioca Nutella",               preco: 22.90, desc: "Nutella cremosa na tapioca crocante",                         foto: "tapioca-nutella",    badge: "" },
     ]
+     },
+  {
+    categoria: "Smoothies",
+    itens: [
+      { nome: "Smoothie Maracujá e Doce de Leite",          preco: 29.90, desc: "Maracujá, tâmaras, banana, leite e whey de doce de leite",                           foto: "smoothie-maracuja",                   badge: "p" },
+      { nome: "Smoothie Morango Whey",         preco: 29.90, desc: "Morango, banana, leite e whey protein",                              foto: "smoothie-morango",   badge: "" },
+      { nome: "Smoothie Frutas Vermelhas",             preco: 29.90, desc: "Morango, framboesa, chia, banana, leite e whey protein",                         foto: "smoothie-frutas-vermelhas",                   badge: "" },
+      { nome: "Smoothie Bluefit",           preco: 29.90, desc: "Blueberry, acaí, água de coco e whey protein",                                   foto: "",                   badge: "" },
+      { nome: "Smoothie Capelinha Amendoim",   preco: 25.90, desc: "Pasta de amendoim, banana, abacaxi, leite e whey protein",                           foto: "smoothie-capelinha",                   badge: "" },
+    ]
   },
   {
     categoria: "Cafés",
@@ -78,20 +88,12 @@ var MENU = [
   {
     categoria: "Bebidas",
     itens: [
-      { nome: "Coca Cola",                 preco: 5.90,  desc: "Expresso curto e encorpado",                                  foto: "",                   badge: "" },
-      { nome: "Coca Cola Zero",                preco: 9.90,  desc: "Dose dupla pra dar aquele boost",                             foto: "",                   badge: "" },
-      { nome: "Schweppes",              preco: 14.90, desc: "Chocolate cremoso artesanal",                                 foto: "",                   badge: "" },
-      { nome: "Água sem Gás",                    preco: 18.90, desc: "Cappuccino com espuma aveludada",                              foto: "",                   badge: "" },
-    ]
-  },
-  {
-    categoria: "Smoothies",
-    itens: [
-      { nome: "Smoothie Maracujá e Doce de Leite",          preco: 29.90, desc: "Maracujá, tâmaras, banana, leite e whey de doce de leite",                           foto: "smoothie-maracuja",                   badge: "p" },
-      { nome: "Smoothie Morango Whey",         preco: 29.90, desc: "Morango, banana, leite e whey protein",                              foto: "smoothie-morango",   badge: "" },
-      { nome: "Smoothie Frutas Vermelhas",             preco: 29.90, desc: "Morango, framboesa, chia, banana, leite e whey protein",                         foto: "smoothie-frutas-vermelhas",                   badge: "" },
-      { nome: "Smoothie Bluefit",           preco: 29.90, desc: "Blueberry, acaí, água de coco e whey protein",                                   foto: "",                   badge: "" },
-      { nome: "Smoothie Capelinha Amendoim",   preco: 25.90, desc: "Pasta de amendoim, banana, abacaxi, leite e whey protein",                           foto: "smoothie-capelinha",                   badge: "" },
+      { nome: "Coca Cola",                 preco: 7.90,  desc: "",                                  foto: "",                   badge: "" },
+      { nome: "Coca Cola Zero",                preco: 7.90,  desc: "",                             foto: "",                   badge: "" },
+      { nome: "Schweppes",              preco: 8.90, desc: "",                                 foto: "",                   badge: "" },
+      { nome: "Água sem Gás",                    preco: 5.90, desc: "",                              foto: "",                   badge: "" },
+      { nome: "Água com Gás",                    preco: 6.90, desc: "",                              foto: "",                   badge: "" },
+      { nome: "Água de Coco",                    preco: 8.90, desc: "",                              foto: "",                   badge: "" },
     ]
   },
 ];
