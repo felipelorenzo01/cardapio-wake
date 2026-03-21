@@ -126,13 +126,13 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--dk);overf
 <div id="popForm">
 <div class="pop-badge">Bem-vindo!</div>
 <div class="pop-title">Ganhe <span>10% OFF</span><br>no seu primeiro pedido</div>
-<div class="pop-sub">Preencha seus dados e receba o cupom agora.</div>
+<div class="pop-sub">Cadastre-se e receba ofertas exclusivas + uma surpresa no seu aniversário.</div>
 <div class="pop-form">
 <input class="pop-input" id="popNome" type="text" placeholder="Seu nome" autocomplete="given-name">
 <input class="pop-input" id="popEmail" type="email" placeholder="E-mail" autocomplete="email">
 <input class="pop-input" id="popTel" type="tel" placeholder="WhatsApp (com DDD)" autocomplete="tel">
 <input class="pop-input" id="popNasc" type="date" placeholder="Data de nascimento">
-<button class="pop-btn" id="popBtn" onclick="submitPop()">Quero meu cupom de 10%</button>
+<button class="pop-btn" id="popBtn" onclick="submitPop()">Quero meu cupom de 5%</button>
 </div>
 <div class="pop-skip" onclick="closePop()">Agora não, obrigado</div>
 </div>
@@ -140,8 +140,8 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--dk);overf
 <div class="pop-ok">
 <div class="pop-ok-icon">&#x2713;</div>
 <div class="pop-ok-title">Cupom liberado!</div>
-<div class="pop-ok-code">WAKE10</div>
-<div class="pop-ok-sub">Mostre este código ao garçom<br>para ganhar 10% de desconto.</div>
+<div class="pop-ok-code">WAKE5</div>
+<div class="pop-ok-sub">Mostre este código ao garçom<br>para ganhar 5% de desconto.</div>
 </div>
 <button class="pop-btn" onclick="closePop()" style="margin-top:8px">Ver cardápio</button>
 </div>
@@ -196,7 +196,7 @@ document.getElementById("si").addEventListener("input",function(e){sr=e.target.v
 window.addEventListener("scroll",updateActivePill);
 render();
 
-// ====== POPUP 10% DESCONTO ======
+// ====== POPUP 5% DESCONTO ======
 // Cole a URL do Google Apps Script aqui:
 var SHEET_URL = "https://script.google.com/macros/s/AKfycbxWxDNAzhXoomJyRjns02-4O8EUc2uyl_0uaMSxrkfPLMKrwSWzU8c5wUwxSSs6HyH7jA/exec";
 
