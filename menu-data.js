@@ -71,8 +71,8 @@ var MENU = [
     itens: [
       { nome: "Café Expresso",                 preco: 5.90,  desc: "Expresso curto e encorpado",                                  foto: "",                   badge: "" },
       { nome: "Expresso Duplo",                preco: 9.90,  desc: "Dose dupla pra dar aquele boost",                             foto: "",                   badge: "" },
-      { nome: "Chocolate Quente",              preco: 14.90, desc: "Chocolate cremoso artesanal",                                 foto: "",                   badge: "" },
-      { nome: "Cappuccino",                    preco: 18.90, desc: "Cappuccino com espuma aveludada",                              foto: "",                   badge: "" },
+      { nome: "Chocolate Quente",              preco: 14.90, desc: "Chocolate cremoso artesanal",                                 foto: "chocolate-quente",                   badge: "" },
+      { nome: "Cappuccino",                    preco: 18.90, desc: "Cappuccino com espuma aveludada",                              foto: "capuccino",                   badge: "" },
     ]
   },
   {
@@ -82,7 +82,7 @@ var MENU = [
       { nome: "Smoothie Morango Whey",         preco: 29.90, desc: "Morango, banana, leite e whey protein",                              foto: "smoothie-morango",   badge: "" },
       { nome: "Smoothie Frutas Vermelhas",             preco: 29.90, desc: "Morango, framboesa, chia, banana, leite e whey protein",                         foto: "smoothie-frutas-vermelhas",                   badge: "" },
       { nome: "Smoothie Bluefit",           preco: 29.90, desc: "Blueberry, acaí, água de coco e whey protein",                                   foto: "",                   badge: "" },
-      { nome: "Smoothie Capelinha Amendoim",   preco: 25.90, desc: "Pasta de amendoim, banana, abacaxi, leite e whey protein",                           foto: "smoothie-capelinha-amendoim",                   badge: "" },
+      { nome: "Smoothie Capelinha Amendoim",   preco: 25.90, desc: "Pasta de amendoim, banana, abacaxi, leite e whey protein",                           foto: "smoothie-capelinha",                   badge: "" },
     ]
   },
 ];
