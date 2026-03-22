@@ -79,8 +79,8 @@ var MENU = [
   {
     categoria: "Cafés",
     itens: [
-      { nome: "Café Expresso",                 preco: 5.90,  desc: "Expresso curto e encorpado",                                  foto: "",                   badge: "" },
-      { nome: "Expresso Duplo",                preco: 9.90,  desc: "Dose dupla pra dar aquele boost",                             foto: "",                   badge: "" },
+      { nome: "Café Expresso",                 preco: 5.90,  desc: "Expresso curto e encorpado",                                  foto: "espresso",                   badge: "" },
+      { nome: "Expresso Duplo",                preco: 9.90,  desc: "Dose dupla pra dar aquele boost",                             foto: "espresso-duplo",                   badge: "" },
       { nome: "Chocolate Quente",              preco: 14.90, desc: "Chocolate cremoso artesanal",                                 foto: "chocolate-quente",                   badge: "" },
       { nome: "Cappuccino",                    preco: 18.90, desc: "Cappuccino com espuma aveludada",                              foto: "capuccino",                   badge: "" },
     ]
@@ -88,9 +88,9 @@ var MENU = [
   {
     categoria: "Bebidas",
     itens: [
-      { nome: "Coca Cola",                 preco: 7.90,  desc: "",                                  foto: "",                   badge: "" },
-      { nome: "Coca Cola Zero",                preco: 7.90,  desc: "",                             foto: "",                   badge: "" },
-      { nome: "Schweppes",              preco: 8.90, desc: "",                                 foto: "",                   badge: "" },
+      { nome: "Coca Cola",                 preco: 7.90,  desc: "",                                  foto: "coca-cola",                   badge: "" },
+      { nome: "Coca Cola Zero",                preco: 7.90,  desc: "",                             foto: "coca-zero",                   badge: "" },
+      { nome: "Schweppes",              preco: 8.90, desc: "",                                 foto: "swcheppes",                   badge: "" },
       { nome: "Água sem Gás",                    preco: 5.90, desc: "",                              foto: "",                   badge: "" },
       { nome: "Água com Gás",                    preco: 6.90, desc: "",                              foto: "",                   badge: "" },
       { nome: "Água de Coco",                    preco: 8.90, desc: "",                              foto: "",                   badge: "" },
