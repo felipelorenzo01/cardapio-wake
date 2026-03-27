@@ -72,7 +72,7 @@ var MENU = [
       { nome: "Smoothie Maracujá e Doce de Leite",          preco: 29.90, desc: "Maracujá, tâmaras, banana, leite e whey de doce de leite",                           foto: "smoothie-maracuja",                   badge: "p" },
       { nome: "Smoothie Morango Whey",         preco: 29.90, desc: "Morango, banana, leite e whey protein",                              foto: "smoothie-morango",   badge: "" },
       { nome: "Smoothie Frutas Vermelhas",             preco: 29.90, desc: "Morango, framboesa, chia, banana, leite e whey protein",                         foto: "smoothie-frutas-vermelhas",                   badge: "" },
-      { nome: "Smoothie Bluefit",           preco: 29.90, desc: "Blueberry, acaí, água de coco e whey protein",                                   foto: "smoothie-bluefit",                   badge: "" },
+      { nome: "Smoothie Bluefit",           preco: 29.90, desc: "Blueberry, acaí, água de coco e whey protein",                                   foto: "smoothie-bluetfit",                   badge: "" },
       { nome: "Smoothie Capelinha Amendoim",   preco: 25.90, desc: "Pasta de amendoim, banana, abacaxi, leite e whey protein",                           foto: "smoothie-capelinha",                   badge: "" },
     ]
   },
