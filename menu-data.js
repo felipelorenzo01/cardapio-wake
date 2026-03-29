@@ -62,8 +62,8 @@ var MENU = [
       { nome: "Tapioca Camarão",               preco: 42.90, desc: "Camarões salteados com pesto e tomate",                       foto: "tapioca-camarao",    badge: "" },
       { nome: "Tapioca Mista",                 preco: 24.90, desc: "Queijo derretido e presunto na tapioca",                      foto: "tapioca-mista",      badge: "" },
       { nome: "Tapioca Veggie",                preco: 22.90, desc: "Legumes grelhados, queijo e tomate",                          foto: "tapioca-veggie",     badge: "" },
-      { nome: "Tapioca Doce de Leite",         preco: 24.90, desc: "Doce de leite artesanal na tapioca",                          foto: "tapioca-doce-leite", badge: "" },
-      { nome: "Tapioca Nutella",               preco: 22.90, desc: "Nutella cremosa na tapioca crocante",                         foto: "tapioca-nutella",    badge: "" },
+      { nome: "Tapioca Doce de Leite",         preco: 22.90, desc: "Doce de leite artesanal na tapioca",                          foto: "tapioca-doce-leite", badge: "" },
+      { nome: "Tapioca Nutella",               preco: 24.90, desc: "Nutella cremosa na tapioca crocante",                         foto: "tapioca-nutella",    badge: "" },
     ]
      },
   {
