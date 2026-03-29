@@ -29,6 +29,8 @@ var MENU = [
       { nome: "Croissant de Ovo e Bacon",      preco: 32.90, desc: "Croissant folhado, ovo e bacon crocante",                     foto: "croissant-ovo-bacon", badge: "" },
       { nome: "Croissant Misto",               preco: 28.90, desc: "Croissant com queijo e presunto",                             foto: "croissant-misto",    badge: "" },
       { nome: "Croissant de Cogumelo",         preco: 34.90, desc: "Mix de cogumelos salteados, com rúcula e requeijão no croissant",                     foto: "croissant-cogumelo", badge: "p" },
+      { nome: "Croissant de Doce de Leite",         preco: 28.90, desc: "Doce de leite artesanal no croissant",                     foto: "", badge: "p" },
+      { nome: "Croissant de Nutella",         preco: 30.90, desc: "Nutella cremosa no croissant",                     foto: "", badge: "p" },
     ]
   },
   {
