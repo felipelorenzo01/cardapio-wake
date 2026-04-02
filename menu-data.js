@@ -20,7 +20,7 @@ var MENU = [
       { nome: "Cuscuz de Queijo Coalho",      preco: 26.90, desc: "Cuscuz nordestino com queijo coalho gratinado e ovo",          foto: "cuscuz-coalho",      badge: "" },
       { nome: "Cuscuz de Camarão",             preco: 36.90, desc: "Camarões salteados na manteiga com cuscuz e coalho",          foto: "cuscuz-camarao",     badge: "p" },
       { nome: "Cuscuz de Carne do Sol",        preco: 32.90, desc: "Cuscuz com carne do sol desfiada e ovo",                      foto: "cuscuz-carne-sol",   badge: "" },
-      { nome: "Cuscuz de Fumeiro",             preco: 32.90, desc: "Linguiça fumeiro artesanal com cuscuz e ovo",                 foto: "cuscuz-fumeiro",     badge: "" },
+      { nome: "Cuscuz de Fumeiro",             preco: 32.90, desc: "carne de fumeiro artesanal com cuscuz e ovo",                 foto: "cuscuz-fumeiro",     badge: "" },
     ]
   },
   {
