@@ -85,7 +85,7 @@ var MENU = [
       { nome: "Expresso Duplo",                preco: 9.90,  desc: "Dose dupla pra dar aquele boost",                             foto: "espresso-duplo",                   badge: "" },
       { nome: "Chocolate Quente",              preco: 14.90, desc: "Chocolate cremoso artesanal",                                 foto: "chocolate-quente",                   badge: "" },
       { nome: "Cappuccino",                    preco: 18.90, desc: "Cappuccino com espuma aveludada",                              foto: "capuccino",                   badge: "" },
-       { nome: "Café com Leite",                    preco: 11.90, desc: "Cappuccino com espuma aveludada",                              foto: "",                   badge: "" },
+       { nome: "Café com Leite",                    preco: 11.90, desc: "Cappuccino com leite clássico",                              foto: "",                   badge: "" },
     ]
   },
   {
