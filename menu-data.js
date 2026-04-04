@@ -101,7 +101,46 @@ var MENU = [
     ]
   },
 ];
+var EXTRAS = {
+  "Cuscuz": [
+    { nome: "Carne do Sol",       preco: 12.90 },
+    { nome: "Fumeiro",            preco: 13.90 },
+    { nome: "Frango",             preco: 10.90 },
+    { nome: "Camarão",            preco: 21.90 },
+    { nome: "Queijo Coalho",      preco: 12.90 },
+    { nome: "Ovo Extra",          preco: 4.90 },
+    { nome: "Bacon Extra",        preco: 8.90 },
+  ],
+  "Croissant": [
+    { nome: "Ovo Extra",          preco: 4.90 },
+    { nome: "Bacon Extra",        preco: 8.90 },
+  ],
+  "Omelete": [
+    { nome: "Frango",             preco: 10.90 },
+    { nome: "Ovo Extra",          preco: 4.90 },
+    { nome: "Bacon Extra",        preco: 8.90 },
+  ],
+  "Sanduíches": [
+    { nome: "Ovo Extra",          preco: 4.90 },
+  ],
+  "Saladas": [
+    { nome: "Frango",             preco: 10.90 },
+    { nome: "Filé Mignon",        preco: 19.90 },
+    { nome: "Camarão",            preco: 21.90 },
+  ],
+  "Smoothies": [
+    { nome: "Whey Extra",         preco: 8.90 },
+    { nome: "Leite sem lactose",  preco: 2.90 },
+  ],
+};
 
+var COMBOS = [
+  { nome: "Combo Cuscuz Queijo Coalho",  itens: "Cuscuz Queijo Coalho + Bebida",  bebida: "Suco de laranja ou Café longo",  preco: 34.90,  categoria: "Cuscuz" },
+  { nome: "Combo Cuscuz Fumeiro",        itens: "Cuscuz Fumeiro + Bebida",         bebida: "Suco de laranja ou Café longo",  preco: 40.90,  categoria: "Cuscuz" },
+  { nome: "Combo Cuscuz Carne do Sol",   itens: "Cuscuz Carne do Sol + Bebida",    bebida: "Suco de laranja ou Café longo",  preco: 40.90,  categoria: "Cuscuz" },
+  { nome: "Combo Tapioca Fumeiro",       itens: "Tapioca Fumeiro + Bebida",         bebida: "Suco de laranja ou Café longo",  preco: 38.50,  categoria: "Tapioca" },
+  { nome: "Combo Tapioca Mista",         itens: "Tapioca Mista + Bebida",           bebida: "Suco de laranja ou Café longo",  preco: 33.90,  categoria: "Tapioca" },
+];
 var CONFIG = {
   whatsapp: "5571981817884",
   instagram: "waketododia",
