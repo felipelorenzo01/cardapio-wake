@@ -97,6 +97,7 @@ var MENU = [
       { nome: "Água sem Gás",                    preco: 5.90, desc: "",                              foto: "",                   badge: "" },
       { nome: "Água com Gás",                    preco: 6.90, desc: "",                              foto: "",                   badge: "" },
       { nome: "Água de Coco",                    preco: 8.90, desc: "",                              foto: "",                   badge: "" },
+      { nome: "Suco de Laranja",                    preco: 12.90, desc: "",                              foto: "",                   badge: "" },
     ]
   },
 ];
