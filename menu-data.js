@@ -75,7 +75,7 @@ var MENU = [
       { nome: "Smoothie Morango Whey",         preco: 29.90, desc: "Morango, banana, leite e whey protein",                              foto: "morango-whey",   badge: "" },
       { nome: "Smoothie Frutas Vermelhas",             preco: 29.90, desc: "Morango, framboesa, chia, banana, leite e whey protein",                         foto: "smoothie-frutas-vermelhas",                   badge: "" },
       { nome: "Smoothie Bluefit",           preco: 29.90, desc: "Blueberry, acaí, água de coco e whey protein",                                   foto: "smoothie-bluetfit",                   badge: "" },
-      { nome: "Smoothie Capelinha Amendoim",   preco: 25.90, desc: "Pasta de amendoim, banana, abacaxi, leite e whey protein",                           foto: "smoothie-capelinha",                   badge: "" },
+      { nome: "Smoothie Capelinha Amendoim",   preco: 29.90, desc: "Pasta de amendoim, banana, abacaxi, leite e whey protein",                           foto: "smoothie-capelinha",                   badge: "" },
     ]
   },
   {
