@@ -19,26 +19,26 @@ var MENU = [
     itens: [
       { nome: "Cuscuz de Queijo Coalho",      preco: 26.90, desc: "Cuscuz nordestino com queijo coalho gratinado e ovo",          foto: "cuscuz-coalho",      badge: "" },
       { nome: "Cuscuz de Camarão",             preco: 36.90, desc: "Camarões salteados na manteiga com cuscuz e coalho",          foto: "cuscuz-camarao",     badge: "p" },
-      { nome: "Cuscuz de Carne do Sol",        preco: 32.90, desc: "Cuscuz com carne do sol desfiada e ovo",                      foto: "cuscuz-carne-sol",   badge: "" },
+      { nome: "Cuscuz de Carne do Sol",        preco: 32.90, desc: "Cuscuz com carne do sol e ovo",                      foto: "cuscuz-carne-sol",   badge: "" },
       { nome: "Cuscuz de Fumeiro",             preco: 32.90, desc: "carne de fumeiro artesanal com cuscuz e ovo",                 foto: "cuscuz-fumeiro",     badge: "" },
     ]
   },
   {
     categoria: "Croissant",
     itens: [
-      { nome: "Croissant de Ovo e Bacon",      preco: 32.90, desc: "Croissant folhado, ovo e bacon crocante",                     foto: "croissant-ovo-bacon", badge: "" },
-      { nome: "Croissant Misto",               preco: 28.90, desc: "Croissant com queijo e presunto",                             foto: "croissant-misto",    badge: "" },
-      { nome: "Croissant de Cogumelo",         preco: 34.90, desc: "Mix de cogumelos salteados, com rúcula e requeijão no croissant",                     foto: "croissant-cogumelo", badge: "p" },
-      { nome: "Croissant de Doce de Leite",         preco: 28.90, desc: "Doce de leite artesanal no croissant",                     foto: "croissant-nutella", badge: "" },
-      { nome: "Croissant de Nutella",         preco: 30.90, desc: "Nutella cremosa no croissant",                     foto: "", badge: "croissant-nutella" },
+      { nome: "Croissant de Ovo e Bacon",      preco: 32.90, desc: "Croissant folhado recheado com ovo e bacon crocante",                     foto: "croissant-ovo-bacon", badge: "" },
+      { nome: "Croissant Misto",               preco: 28.90, desc: "Croissant folhado recheado com queijo e presunto",                             foto: "croissant-misto",    badge: "" },
+      { nome: "Croissant de Cogumelo",         preco: 34.90, desc: "Croissant folhado recheado com mix de cogumelos salteados, rúcula e requeijão",                     foto: "croissant-cogumelo", badge: "p" },
+      { nome: "Croissant de Doce de Leite",         preco: 28.90, desc: "Croissant folhado recheado com doce de leite artesanalt",                     foto: "croissant-nutella", badge: "" },
+      { nome: "Croissant de Nutella",         preco: 30.90, desc: "Croissant folhando recheado com nutella cremosa",                     foto: "", badge: "croissant-nutella" },
     ]
   },
   {
     categoria: "Omelete",
     itens: [
-      { nome: "Omelete de Queijo",             preco: 24.90, desc: "Omelete clássico com queijo derretido",                       foto: "omelete-queijo",     badge: "" },
-      { nome: "Omelete de Queijo e Presunto",  preco: 25.90, desc: "Queijo e presunto no ponto",                                  foto: "omelete-presunto",   badge: "" },
-      { nome: "Omelete Frango & Cream Cheese", preco: 28.90, desc: "Frango desfiado com cream cheese cremoso",                    foto: "omelete-frango",     badge: "" },
+      { nome: "Omelete de Queijo",             preco: 24.90, desc: "Omelete clássico recheado com queijo derretido",                       foto: "omelete-queijo",     badge: "" },
+      { nome: "Omelete de Queijo e Presunto",  preco: 25.90, desc: "Omelete clássico recheado com queijo e presunto",                                  foto: "omelete-presunto",   badge: "" },
+      { nome: "Omelete Frango & Cream Cheese", preco: 28.90, desc: "Omelete clássico recheado com frango desfiado e cream cheese cremoso",                    foto: "omelete-frango",     badge: "" },
     ]
   },
   {
@@ -52,20 +52,20 @@ var MENU = [
     categoria: "Saladas",
     itens: [
       { nome: "Salada de Frango",              preco: 39.90, desc: "Mix de folhas frescas com frango grelhado e castanha",                   foto: "salada-frango",      badge: "" },
-      { nome: "Salada de Filé",                preco: 49.90, desc: "Tiras de filé mignon sobre mix de folhas e queijo gorgonzola",           foto: "salada-file",        badge: "p" },
-      { nome: "Salada de Camarão",             preco: 57.90, desc: "Camarões nobres com parmesão e castanhas",                    foto: "salada-camarao",     badge: "" },
+      { nome: "Salada de Filé",                preco: 49.90, desc: "Mix de folhas frescas com tiras de filé mignon, queijo gorgonzola e castanha",           foto: "salada-file",        badge: "p" },
+      { nome: "Salada de Camarão",             preco: 57.90, desc: "Mix de folhas frescas com Camarões nobres, parmesão e castanhas",                    foto: "salada-camarao",     badge: "" },
     ]
   },
   {
     categoria: "Tapioca",
     itens: [
       { nome: "Tapioca Fumeiro",               preco: 29.90, desc: "Tapioca recheada com carne de fumeiro artesanal",                       foto: "tapioca-fumeiro",    badge: "p" },
-      { nome: "Tapioca Filé & Cogumelo",       preco: 38.90, desc: "Filé mignon com cogumelos frescos",                           foto: "tapioca-file",                   badge: "" },
-      { nome: "Tapioca Camarão",               preco: 42.90, desc: "Camarões salteados com pesto e tomate",                       foto: "tapioca-camarao",    badge: "" },
-      { nome: "Tapioca Mista",                 preco: 24.90, desc: "Queijo derretido e presunto na tapioca",                      foto: "tapioca-mista",      badge: "" },
-      { nome: "Tapioca Veggie",                preco: 22.90, desc: "Legumes grelhados, queijo e tomate",                          foto: "tapioca-veggie",     badge: "" },
-      { nome: "Tapioca Doce de Leite",         preco: 22.90, desc: "Doce de leite artesanal na tapioca",                          foto: "tapioca-doce-leite", badge: "" },
-      { nome: "Tapioca Nutella",               preco: 24.90, desc: "Nutella cremosa na tapioca crocante",                         foto: "tapioca-nutella",    badge: "" },
+      { nome: "Tapioca Filé & Cogumelo",       preco: 38.90, desc: "Tapioca recheada com filé mignon e cogumelos frescos",                           foto: "tapioca-file",                   badge: "" },
+      { nome: "Tapioca Camarão",               preco: 42.90, desc: "Tapioca recheada com camarões salteados, pesto e tomate",                       foto: "tapioca-camarao",    badge: "" },
+      { nome: "Tapioca Mista",                 preco: 24.90, desc: "Tapioca recheada com queijo derretido e presunto",                      foto: "tapioca-mista",      badge: "" },
+      { nome: "Tapioca Veggie",                preco: 22.90, desc: "Tapioca recheada com queijo,tomate, manjericão e nosso tradicional molho pesto",                          foto: "tapioca-veggie",     badge: "" },
+      { nome: "Tapioca Doce de Leite",         preco: 22.90, desc: "Tapioca recheada com Doce de leite artesanal",                          foto: "tapioca-doce-leite", badge: "" },
+      { nome: "Tapioca Nutella",               preco: 24.90, desc: "Tapioca recheada com nutella cremosa",                         foto: "tapioca-nutella",    badge: "" },
     ]
      },
   {
